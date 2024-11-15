@@ -32,6 +32,7 @@
     <img src="readme-assets/login.jpg" height=200 width=250 alt="Login Screeen" style="vertical-align:middle;">
     <img src="readme-assets/pokelist.jpg" height=300 width=250 alt="Pokemon List View" style="vertical-align:middle;">
     </p>
+    <img src="readme-assets/landscape.jpg" height=200 alt="Pokemon List View" style="vertical-align:middle;">
 </div>
 
 
