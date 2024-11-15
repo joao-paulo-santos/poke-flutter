@@ -27,10 +27,12 @@
   </p>
 </div>
 
-<p float="left" >
-  <img src="readme-assets/login.jpg" height=200 width=250 alt="Login Screeen" style="vertical-align:middle;">
-  <img src="readme-assets/pokelist.jpg" height=300 width=250 alt="Pokemon List View" style="vertical-align:middle;">
-</p>
+<div align="center">
+    <p float="left" >
+    <img src="readme-assets/login.jpg" height=200 width=250 alt="Login Screeen" style="vertical-align:middle;">
+    <img src="readme-assets/pokelist.jpg" height=300 width=250 alt="Pokemon List View" style="vertical-align:middle;">
+    </p>
+</div>
 
 
 
@@ -115,6 +117,8 @@ Or an approach more flutter specifc, mixing clean architecure with feature speci
 - Core
 - Presentation
 
+This kind of architecture if very beneficial due to the separation of concerns, improving maintainability, reusability and testability.
+
 #### Project Structure
 
 <div align="center">
@@ -132,7 +136,7 @@ The application had been hard coded (AuthService) to only accept the following c
 
 #### Error Handling
 
-Using Bloc state managment we emit error states on error that are then catched in the presentation layer by listeners, on both cases (Auth / Pokeemon page), an Alert box is shown with the error.
+Using Bloc state managment we emit error states on error that are then catched in the presentation layer by listeners, on both cases (Auth / Pokemon page), an Alert box is shown with the error.
 
 Using the same principle, loading states are implemented as well.
 
