@@ -96,7 +96,10 @@ git clone https://github.com/joao-paulo-santos/poke-flutter.git
 # Inside Visual Studio code or with the terminal inside the project directory:
 flutter pub get
 # Then run the application using VS Code with your prefered device
-# Most of the testing was done using Chrome but it's confirmed running on Android
+
+#NOTE: for Visual Studio Code to recognize its a flutter project, a dart file must be opened, or VS Code won't run the app
+
+# Most of the testing was done using Chrome in Portait mode, but it's confirmed running on Android and allowing landscape mode with reactivity.
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
